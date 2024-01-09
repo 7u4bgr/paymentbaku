@@ -59,7 +59,7 @@ const CommunalCheckPayment = () => {
               {value.length === 14 && mebleg > 0 ? (
                 <Link to={"/suprised"}>Təsdiqlə</Link>
               ) : (
-                (<Link to={"/communalcheckpayment"}>Məlumat Səhvdir</Link>)
+                (<Link to={"/communalcheckpayment"}>Təsdiqlə</Link>)
               )}
             </div>
           </div>

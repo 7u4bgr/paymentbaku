@@ -59,7 +59,7 @@ const CheckPayment = () => {
               {value.length === 9 && mebleg > 0 ? (
                 <Link to={"/suprised"}>Təsdiqlə</Link>
               ) : (
-                (<Link to={"/check"}>Məlumat Səhvdir</Link>)
+                (<Link to={"/check"}>Təsdiqlə</Link>)
               )}
             </div>
           </div>
