@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const CheckPayment = () => {
   const [value, setValue] = useState("");
   const [mebleg, setMebleg] = useState(0);
+  const [showAlert, setShowAlert] = useState(false);
 
   const handlePhoneNumberChange = (event) => {
     setValue(event.target.value);
@@ -16,7 +17,7 @@ const CheckPayment = () => {
   };
 
   const goBack = () => {
-    window.history.back(); // Bu metot bir önceki sayfaya döner
+    window.history.back(); 
   };
 
   return (
@@ -39,29 +40,40 @@ const CheckPayment = () => {
               <div className={styles.number}>
                 <h2>+994</h2>
                 <input
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                type="tel"
                   placeholder="501234567"
                   value={value}
                   onChange={handlePhoneNumberChange}
-                  type="number"
+                
                 />
               </div>
               <div className={styles.mebleg}>
                 <h2>Məbləğ</h2>
                 <input
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                type="tel"
                   value={mebleg}
                   onChange={handleMeblegChange}
                   placeholder="min-1 Azn"
-                  type="number"
+                 
                 />
               </div>
             </div>
             <div className={styles.check}>
-              {value.length === 9 && mebleg > 0 ? (
-                <Link to={"/suprised"}>Təsdiqlə</Link>
-              ) : (
-                (<Link to={"/check"}>Təsdiqlə</Link>)
-              )}
+            {value.length === 9 && mebleg > 0 ? (
+        <Link to={"/suprised"}>Təsdiqlə</Link>
+      ) : (
+        <button className={styles.button1} onClick={() => setShowAlert(true)}>Təsdiqlə</button>
+      )}
             </div>
+              {showAlert && (
+      <div className={styles.alert}>
+        <button onClick={() => setShowAlert(false)}></button>
+        <h2> Telefon nömrəsi 9 rəqəmli olmalıdır ve məbləğ min-1 Azn olmalıdır.</h2>
+      
+      </div>
+    )} 
           </div>
         </Wrapper>
       </div>

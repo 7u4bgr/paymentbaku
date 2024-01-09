@@ -7,7 +7,7 @@
 .background {
   background: #fff;
   box-shadow: 0px -10px 20px 0px rgba(194, 194, 194, 0.25);
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -19,19 +19,24 @@
   display: flex;
   align-items: center;
   padding-top: 10px;
-  gap: 20px;
+  gap: 30px;
 }
-.background .control .menu {
+.background .control .controlmenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlmenu .menu {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1px;
 }
-.background .control .menu svg {
+.background .control .controlmenu .menu svg {
   color: gray;
 }
-.background .control .menu h2 {
+.background .control .controlmenu .menu h2 {
   color: #999;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -39,23 +44,23 @@
   font-weight: 500;
   line-height: normal;
 }
-.background .control .menu:focus svg {
+.background .control .controlmenu .menu:focus svg {
   color: #288aa9;
 }
-.background .control .menu:focus h2 {
+.background .control .controlmenu .menu:focus h2 {
   color: #288aa9;
 }
-.background .control .payment {
+.background .control .controlmenu .payment {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
-.background .control .payment svg {
+.background .control .controlmenu .payment svg {
   color: gray;
 }
-.background .control .payment h2 {
+.background .control .controlmenu .payment h2 {
   color: #999;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -63,10 +68,10 @@
   font-weight: 500;
   line-height: normal;
 }
-.background .control .payment:focus svg {
+.background .control .controlmenu .payment:focus svg {
   color: #288aa9;
 }
-.background .control .payment:focus h2 {
+.background .control .controlmenu .payment:focus h2 {
   color: #288aa9;
 }
 .background .control .addplus {
@@ -77,17 +82,22 @@
   background-color: #288aa9;
   padding: 13px;
 }
-.background .control .history {
+.background .control .controlhistory {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.background .control .controlhistory .history {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
-.background .control .history svg {
+.background .control .controlhistory .history svg {
   color: gray;
 }
-.background .control .history h2 {
+.background .control .controlhistory .history h2 {
   color: #999;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -95,23 +105,23 @@
   font-weight: 500;
   line-height: normal;
 }
-.background .control .history:focus svg {
+.background .control .controlhistory .history:focus svg {
   color: #288aa9;
 }
-.background .control .history:focus h2 {
+.background .control .controlhistory .history:focus h2 {
   color: #288aa9;
 }
-.background .control .other {
+.background .control .controlhistory .other {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
-.background .control .other svg {
+.background .control .controlhistory .other svg {
   color: gray;
 }
-.background .control .other h2 {
+.background .control .controlhistory .other h2 {
   color: #999;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -119,13 +129,13 @@
   font-weight: 500;
   line-height: normal;
 }
-.background .control .other img {
+.background .control .controlhistory .other img {
   width: 27px;
   height: 27px;
 }
-.background .control .other:focus svg {
+.background .control .controlhistory .other:focus svg {
   color: #288aa9;
 }
-.background .control .other:focus h2 {
+.background .control .controlhistory .other:focus h2 {
   color: #288aa9;
 }/*# sourceMappingURL=index.module.css.map */

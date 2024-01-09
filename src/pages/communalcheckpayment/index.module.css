@@ -111,4 +111,43 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.background .flex .flex1 .check button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .flex .flex1 .alert {
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e40000;
+}
+.background .flex .flex1 .alert h2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .flex .flex1 .alert button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=index.module.css.map */

@@ -12,6 +12,7 @@ const Footer = () => {
         <div className={styles.control}>
          
   
+        <div className={styles.controlmenu}>
 
           <Link to={'/'} className={styles.menu}>
             <MenuIcon />
@@ -21,6 +22,7 @@ const Footer = () => {
             <PaymentIcon />
             <h2>Ödənişlər</h2>
           </Link>
+        </div>
    
           
           
@@ -32,8 +34,8 @@ const Footer = () => {
           </Link>
          
           
-
-          <Link to={"/history"} className={styles.history}>
+        <div className={styles.controlhistory}>
+            <Link to={"/history"} className={styles.history}>
               <HistoryIcon/>
               <h2>Tarixçə</h2>
           </Link>
@@ -41,6 +43,8 @@ const Footer = () => {
              <OtherIcon/>
               <h2>Digər</h2>
           </Link>
+        </div>
+        
           
         </div>
       </Wrapper>

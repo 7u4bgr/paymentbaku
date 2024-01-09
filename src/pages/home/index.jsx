@@ -9,24 +9,34 @@ import Kapital from "../../assets/images/kapital.svg";
 import LeoBank from "../../assets/images/leobank.svg";
 import AileTV from "../../assets/images/ailetv.svg";
 import AzerSu from "../../assets/images/su1.svg";
+import { Link } from "react-router-dom";
 const Home = () => {
   const [data, setData] = useState([
     {
+      link:"/check",
       photo: `${Azercell}`,
     },
     {
+      link:"/check",
       photo: `${Nar}`,
     },
     {
+      link:"/communalcheckpayment",
       photo: `${Kapital}`,
     },
     {
+      link:"/communalcheckpayment",
+
       photo: `${LeoBank}`,
     },
     {
+      link:"/communalcheckpayment",
+
       photo: `${AileTV}`,
     },
     {
+      link:"/communalcheckpayment",
+
       photo: `${AzerSu}`,
     },
   ]);
@@ -65,7 +75,11 @@ const Home = () => {
             </div>
             <div className={styles.maps}>
               {data?.map((item) => (
+
+                <Link to={item.link}>
+
                 <img src={item.photo} alt="" />
+                </Link>
               ))}
             </div>
             <div className={styles.lastpayments}>

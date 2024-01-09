@@ -9,7 +9,7 @@
     background: #00a7c9;
     padding-bottom: 34px;
     .controltext {
-      padding-top: 54px;
+      padding-top: 24px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -66,8 +66,10 @@
   }
   .payments {
     background-color: #fff;
+    
     .controlpayments {
       padding-top: 20px;
+      padding-bottom: 150px;
       display: flex;
       flex-direction: column;
       gap: 22px;
@@ -112,6 +114,7 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
+            margin-bottom: 50px;
           h2 {
             color: #000;
             font-family: "Poppins", sans-serif;

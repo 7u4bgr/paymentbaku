@@ -6,7 +6,7 @@
 
 .background .flexs {
   background: #f0fafc;
-  padding-top: 116px;
+  padding-top: 56px;
 }
 .background .flexs .odenisler .text h2 {
   color: #000;
@@ -61,6 +61,7 @@
   flex-direction: column;
   gap: 25px;
   overflow-y: scroll;
+  padding-bottom: 100px;
 }
 .background .control .controlbox .scrolls .homes {
   padding-top: 16px;
