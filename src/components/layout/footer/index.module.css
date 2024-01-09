@@ -24,7 +24,7 @@
 .background .control .controlmenu {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .background .control .controlmenu .menu {
   text-decoration: none;
