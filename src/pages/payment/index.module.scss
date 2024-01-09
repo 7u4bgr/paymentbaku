@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  .flexs {
+    background: #f0fafc;
+    padding-top: 116px;
+    .odenisler {
+      .text {
+        h2 {
+          color: #000;
+          font-family: "Inter", sans-serif;
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      .input {
+        display: flex;
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        align-items: center;
+
+        flex-shrink: 0;
+
+        svg {
+          position: absolute;
+          padding: 2.167px 1.952px 1.385px 2.25px;
+          margin-left: 10px;
+
+          flex-shrink: 0;
+        }
+        input {
+          width: 100%;
+          color: #7e7e7e;
+          font-family: "Poppins", sans-serif;
+          padding: 12px;
+          font-size: 16px;
+          padding-left: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          border-radius: 10px;
+          border: 1px solid #efefef;
+          background: #fff;
+        }
+      }
+    }
+  }
+  .xidmetler {
+    h2 {
+      color: #8e8e8e;
+      font-family: "Poppins", sans-serif;
+      padding-top: 16px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .control {
+    background: #fff;
+    .controlbox {
+     
+ 
+      .scrolls {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        overflow-y: scroll;
+       
+        .homes {
+          padding-top: 16px;
+          text-decoration: none;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .homecontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .homeicon {
+              background-color: #fbf0ec;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .hometext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .mobil {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          text-decoration: none;
+
+          .mobilcontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .mobilicon {
+              background-color: #e6edf7;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .mobiltext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .bank {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          text-decoration: none;
+
+          .bankcontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .bankicon {
+              background-color: #f1f2e4;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .banktext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .sigorta {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+
+          justify-content: space-between;
+          .sigortacontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .sigortaicon {
+              background-color: #feffc5;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .sigortatext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .tv {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+
+          justify-content: space-between;
+          .tvcontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .tvicon {
+              background-color: #eaf4f5;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .tvtext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .internet {
+          text-decoration: none;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .internetcontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .interneticon {
+              background-color: #fef0d6;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .internettext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .telefon {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          text-decoration: none;
+
+          .telefoncontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .telefonicon {
+              background-color: #efe6f7;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .telefontext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        .magaza {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          text-decoration: none;
+
+          .magazacontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .magazaicon {
+              background-color: #f7e6f5;
+              padding: 13px;
+              border-radius: 30px;
+            }
+            .magazatext {
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

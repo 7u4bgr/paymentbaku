@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .flexs {
+  background: #f0fafc;
+  padding-top: 116px;
+}
+.background .flexs .odenisler .text h2 {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .flexs .odenisler .input {
+  display: flex;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.background .flexs .odenisler .input svg {
+  position: absolute;
+  padding: 2.167px 1.952px 1.385px 2.25px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+.background .flexs .odenisler .input input {
+  width: 100%;
+  color: #7e7e7e;
+  font-family: "Poppins", sans-serif;
+  padding: 12px;
+  font-size: 16px;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #efefef;
+  background: #fff;
+}
+.background .xidmetler h2 {
+  color: #8e8e8e;
+  font-family: "Poppins", sans-serif;
+  padding-top: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control {
+  background: #fff;
+}
+.background .control .controlbox .scrolls {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow-y: scroll;
+}
+.background .control .controlbox .scrolls .homes {
+  padding-top: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .control .controlbox .scrolls .homes .homecontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .homes .homecontrol .homeicon {
+  background-color: #fbf0ec;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .homes .homecontrol .hometext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .homes .homecontrol .hometext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .mobil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.background .control .controlbox .scrolls .mobil .mobilcontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .mobil .mobilcontrol .mobilicon {
+  background-color: #e6edf7;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .mobil .mobilcontrol .mobiltext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .mobil .mobilcontrol .mobiltext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .bank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.background .control .controlbox .scrolls .bank .bankcontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .bank .bankcontrol .bankicon {
+  background-color: #f1f2e4;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .bank .bankcontrol .banktext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .bank .bankcontrol .banktext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .sigorta {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.background .control .controlbox .scrolls .sigorta .sigortacontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .sigorta .sigortacontrol .sigortaicon {
+  background-color: #feffc5;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .sigorta .sigortacontrol .sigortatext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .sigorta .sigortacontrol .sigortatext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .tv {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.background .control .controlbox .scrolls .tv .tvcontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .tv .tvcontrol .tvicon {
+  background-color: #eaf4f5;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .tv .tvcontrol .tvtext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .tv .tvcontrol .tvtext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .internet {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .control .controlbox .scrolls .internet .internetcontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .internet .internetcontrol .interneticon {
+  background-color: #fef0d6;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .internet .internetcontrol .internettext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .internet .internetcontrol .internettext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .telefon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.background .control .controlbox .scrolls .telefon .telefoncontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .telefon .telefoncontrol .telefonicon {
+  background-color: #efe6f7;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .telefon .telefoncontrol .telefontext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .telefon .telefoncontrol .telefontext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .magaza {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.background .control .controlbox .scrolls .magaza .magazacontrol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .controlbox .scrolls .magaza .magazacontrol .magazaicon {
+  background-color: #f7e6f5;
+  padding: 13px;
+  border-radius: 30px;
+}
+.background .control .controlbox .scrolls .magaza .magazacontrol .magazatext h2 {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .controlbox .scrolls .magaza .magazacontrol .magazatext p {
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */

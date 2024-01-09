@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .background {
+    .flexs {
+      background: #f0fafc;
+      padding-top: 100px;
+      .backicon{
+        padding-bottom: 20px;
+      }
+      .odenisler {
+        .text {
+          h2 {
+            color: #000;
+            font-family: "Inter", sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+        .input {
+          display: flex;
+          width: 100%;
+          padding-top: 16px;
+          padding-bottom: 16px;
+  
+          align-items: center;
+  
+          flex-shrink: 0;
+  
+          svg {
+            position: absolute;
+            padding: 2.167px 1.952px 1.385px 2.25px;
+            margin-left: 10px;
+  
+            flex-shrink: 0;
+          }
+          input {
+            width: 100%;
+            color: #7e7e7e;
+            font-family: "Poppins", sans-serif;
+            padding: 12px;
+            font-size: 16px;
+            padding-left: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border-radius: 10px;
+            border: 1px solid #efefef;
+            background: #fff;
+          }
+        }
+      }
+    }
+    .xidmetler {
+      h2 {
+        color: #8e8e8e;
+        font-family: "Poppins", sans-serif;
+        padding-top: 16px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    .control {
+      background: #fff;
+      .controlbox{
+          display: flex;
+        flex-direction: column;
+        gap: 25px;
+      padding-bottom: 16px;
+
+        overflow-y: scroll;
+        height: 59.6vh;
+        padding-top: 16px;
+        .homes {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .homecontrol {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .homeicon {
+              img{
+                object-fit: cover;
+              }
+            }
+            .hometext {
+              text-decoration: none;
+              h2 {
+                color: #020202;
+                font-family: "Poppins", sans-serif;
+  
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: #525252;
+                font-family: "Poppins", sans-serif;
+  
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
